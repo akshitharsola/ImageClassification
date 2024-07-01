@@ -4,7 +4,6 @@
 This project is an iOS application that leverages Core ML to classify images using the MobileNetV2 model. The app allows users to upload an image, classify it, and view the results on a separate screen.
 
 
-
 ## Features
 • Core ML Integration: Utilizes the MobileNetV2 model for image classification.
 • Intuitive UI: Users can upload an image via a tap on an image view.
@@ -39,9 +38,9 @@ This project is an iOS application that leverages Core ML to classify images usi
 
 ### Core ML Model
 • Model: MobileNetV2
-• Author: [Author Name/Organization]
-• License: [License Type]
-• Details: [Additional Details about the model]
+• Author: [Original Paper: Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen.]
+• License: [Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.]
+• Details: [Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%.]
 
 ### Technical Details
 
